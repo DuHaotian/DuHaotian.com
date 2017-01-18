@@ -30,25 +30,8 @@
 	          <p style="text-indent: 2em;">with(obj){ name='zhangsan' }</p>
 	     <p>2.转换类型（+'1'——>number、+[]——>numbeer、null——>object）</p>
 	     <p>3.for循常量申明环（遍历数组）、for in （遍历非数组对象）、with(){}</p>
-	          <p style="text-indent: 2em;">·with——></p>
-	          <p style="text-indent: 2em;">(var obj = {}</p>
-	          <p style="text-indent: 2em;">with(obj){ name='zhangsan' }</p>
-	     <p>4.函数（普通函数是js中的一等公民）</p>
-	   	  <p style="text-indent: 2em;">(1)申明方式：·function fun(){}</p>
-		  <p style="text-indent: 8em;"> ·var fun = functiom(){}</p>
-		  <p style="text-indent: 8em;"> ·(function (){})();</p>
-		  <p style="text-indent: 8em;"> ·var fun = new Functiom('a=1','b=2','retur a+b')</p>
-		  <p style="text-indent: 2em;">(2)函数参数：·function fun(a，b，c){}（形参）</p>
-		  <p style="text-indent: 8em;"> ·fun(1,2,3,4);（实参）</p>
-		  <p style="text-indent: 8em;"> （arguments 伪数组 （无数组添加删除之类的方法，但是可以使用 .length））</p>
-		  <p style="text-indent: 2em;">(3)函数参数可以是函数名 function foo ( funn ){  funn(); }  </p>
-		  <p style="text-indent: 18em;"> foo(f1);</p>
-		  <p style="text-indent: 18em;"> function f1(){console.log(111)}</p>
-		    <p style="text-indent: 2em;">(4)函数声明 会被提前到最前（一等公民）</p>
-		    <p style="text-indent: 2em;">(5)apply call 改变this指向</p>
-		    <p style="text-indent: 8em;"> fun.apply(obj).[1,2,3,4]</p>
-		    <p style="text-indent: 8em;"> fun.call(obj,1,2,3,4)</p>
-	     <p>5.事件添加</p> 
+	     <p>4.①arr.indexof() （占资源，兼容差） ②arr[0]</p>
+	     <p>5.sort();排序（AsII排序）『加入function(a，b){return a-b} 升序、 b-a 降序』</p> 
 	          <p style="text-indent: 2em;">div.addEventlistener('click',fun,flase);</p>
              <p>6.DOM BOM</p> 
 		     <p style="text-indent: 2em;">一般DOM是HTML DOM w3c的DOM （Document Object Model）</p>
